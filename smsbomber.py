@@ -5,7 +5,7 @@ def start():
     print(spanduk)
 
 def hajar(nope):
-    BASE = "https://phr.gms.digital/api/user/getOTP"
+    BASE = "PC Me"
     head = {"LANG":"en", "Content-Type":"application/json; charset=UTF-8", "Content-Length":"44", "Host":"phr.gms.digital", "Connection":"close"}
     body = {"memberToken":"", "receivers":str(nope)}
     
